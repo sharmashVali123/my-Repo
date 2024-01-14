@@ -16,13 +16,11 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "ds_blobsrc",
+						"referenceName": "ds_blob",
 						"type": "DatasetReference"
 					},
 					"fieldList": [
-						"childItems",
-						"exists",
-						"itemName"
+						"childItems"
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
@@ -36,7 +34,7 @@
 			}
 		],
 		"annotations": [],
-		"lastPublishTime": "2023-12-30T10:45:00Z"
+		"lastPublishTime": "2024-01-14T15:00:21Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }
